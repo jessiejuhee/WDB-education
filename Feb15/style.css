@@ -1,0 +1,51 @@
+/*
+
+* {
+
+}
+
+applies to the entire page
+*/
+/*
+body {
+    color : turquoise;
+    background-color: beige;
+    font-size:50px;
+}
+
+h1 {
+    color : purple;
+    font-size: 100px;
+}
+
+p {
+    color : purple;
+    font-size: 20px;
+}
+*/
+/* classes in css are selected with a . in the front*/
+
+.box-container {
+    display : block;
+    text-align : center;
+    width : 300px;
+    color : black;
+    background-color:lightpink;
+    padding : 30px;
+    font-size : 50px;
+}
+
+.box-one {
+    background-color: turquoise;
+    color: purple;
+}
+
+.box-two {
+    background-color: lemonchiffon;
+    color : cornflowerblue;
+}
+
+.box-three {
+    background-color:coral;
+    color : cornsilk;
+}
