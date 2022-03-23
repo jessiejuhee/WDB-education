@@ -1,11 +1,11 @@
 // Q1 Function This
 
 function max(iterable, key) {
-    var maximum = 0;
-    for (var elem in iterable) {
+    var maximum = -Infinity;
+    for (var elem of iterable) {
       var el = key(elem);
-      if (el >= key(maximum)) {
-        maximum = elem;
+      if (el >= maximum) {
+        maximum = el;
       }
     }
     return maximum;
